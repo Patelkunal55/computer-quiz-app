@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentTop="true"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    app:cardElevation="22dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Question"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question"
+            android:text="Option1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/option1"
+            android:text="Option2"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/option2"
+            android:text="Option3"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/option3"
+            android:text="Option4"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/your_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/option4"
+            android:text="Your Answer:"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/correct_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/your_answer"
+            android:text="Correct Answer: "/>
+
+        <TextView
+            android:id="@+id/correct_ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/correct_answer"
+            android:layout_below="@+id/your_answer"
+            android:text="Correct Answer: "
+            android:textColor="@android:color/black"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

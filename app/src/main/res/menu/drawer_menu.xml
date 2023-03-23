@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_some"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_basic_computer"
+            android:icon="@drawable/ic_1"
+            android:title="Basic Computer" />
+        <item
+            android:id="@+id/nav_internet_and_networking"
+            android:icon="@drawable/ic_2"
+            android:title="Internet and Networking" />
+        <item
+            android:id="@+id/key_shortcut"
+            android:icon="@drawable/ic_3"
+            android:title="Shortcut Keys" />
+        <item
+            android:id="@+id/nav_software"
+            android:icon="@drawable/ic_4"
+            android:title="Software" />
+        <item
+            android:id="@+id/nav_hardware"
+            android:icon="@drawable/ic_5"
+            android:title="Hardware" />
+
+    </group>
+
+    <item android:title="Exit">
+        <menu>
+            <item
+            android:id="@+id/policy"
+            android:icon="@drawable/ic_policy"
+            android:title="Policy" />
+
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Exit" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Score">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/score_card1"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/mmc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text_que1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Total Question: "
+                android:textColor="@color/color_black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/mmc">
+
+            <com.timqi.sectorprogressview.ColorfulRingProgressView
+                android:id="@+id/circular_bar1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:fgColorStart="@android:color/holo_blue_dark"
+                app:fgColorEnd="@android:color/holo_blue_dark"
+                app:percent="100"
+                app:startAngle="0"
+                app:strokeWidth="7dp" />
+
+            <TextView
+                android:id="@+id/score_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/circular_bar1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="20"
+                android:textColor="@color/color_black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/score_card2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/score_card1"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/mmc3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Total Correct: "
+                android:textColor="@color/color_black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/mmc3">
+
+            <com.timqi.sectorprogressview.ColorfulRingProgressView
+                android:id="@+id/circular_bar2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:fgColorStart="@android:color/holo_blue_dark"
+                app:fgColorEnd="@android:color/holo_blue_dark"
+
+                app:percent="50"
+                app:startAngle="0"
+                app:strokeWidth="7dp" />
+
+            <TextView
+                android:id="@+id/score_no1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/circular_bar2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="10"
+                android:textColor="@color/color_black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+    <!--<Button
+        android:id="@+id/solution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Solution" />-->
+
+
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/score_card3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/score_card2"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/mmc4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Total Skip: "
+                android:textColor="@color/color_black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/mmc4">
+
+            <com.timqi.sectorprogressview.ColorfulRingProgressView
+                android:id="@+id/circular_bar3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:fgColorStart="@android:color/holo_blue_dark"
+                app:fgColorEnd="@android:color/holo_blue_dark"
+
+                app:percent="50"
+                app:startAngle="0"
+                app:strokeWidth="7dp" />
+
+            <TextView
+                android:id="@+id/score_no2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/circular_bar3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="10"
+                android:textColor="@color/color_black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+        <!--<Button
+            android:id="@+id/solution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Solution" />-->
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/score_card4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/score_card3"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/mmc5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Total Wrong: "
+                android:textColor="@color/color_black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/mmc5">
+
+            <com.timqi.sectorprogressview.ColorfulRingProgressView
+                android:id="@+id/circular_bar4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:fgColorStart="@android:color/holo_blue_dark"
+                app:fgColorEnd="@android:color/holo_blue_dark"
+                app:percent="50"
+                app:startAngle="0"
+                app:strokeWidth="7dp" />
+
+            <TextView
+                android:id="@+id/score_no3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/circular_bar4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="10"
+                android:textColor="@color/color_black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+            android:id="@+id/solution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/score_card4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="Solution" />
+
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/solution"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Retry.." />
+
+
+
+
+
+</RelativeLayout>

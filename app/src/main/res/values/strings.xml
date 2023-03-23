@@ -1,0 +1,866 @@
+<resources>
+    <string name="app_name">Computer Quiz!</string>
+    <string name="my_app">Hardware</string>
+    <string name="quiz">working</string>
+    <string name="button">Button</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="_75">75</string>
+    <string name="next">NEXT</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="Hello" />
+
+    <string-array name="question">
+        <item>1. The first mechanical computer designed by Charles Babbage was called ? </item>
+        <item>2. Which of the following is the most powerful type of computer ? </item>
+        <item>3. Which is a single integrated circuit? </item>
+        <item>4. C is ? </item>
+        <item>5. Web pages are written using ? </item>
+        <item>6. UNIVAC is an example of </item>
+        <item>7. Which of the following is an example of non volatile memory ? </item>
+        <item>8. Graphic interfaces were first used in a xerox product is called ? </item>
+        <item>9. Find the odd one out ? </item>
+        <item>10. The ------ is the administrative section of the computer system? </item>
+        <item>11. FPI stands for ? </item>
+        <item>12. CD–ROM is a kind of? </item>
+        <item>13. What is the full form of lP ? </item>
+        <item>14. A device that converts digital signals to analog signals is ? </item>
+        <item>15. The first movie released in 1982 with terrific computer animation and graphics was ? </item>
+        <item>16. One byte is equivalent to ? </item>
+        <item>17. A device that converts digital signals to analog signals is ? </item>
+        <item>18. What is the primary requisite of a good computer programmer? </item>
+        <item>19. Find the odd man out. </item>
+        <item>20. Find the odd one out ? </item>
+
+
+    </string-array>
+
+    <string-array name="option1">
+        <item>A. Abacus</item>
+        <item>A. Super–micro</item>
+        <item>A. Gate</item>
+        <item>A. A third generation high level language</item>
+        <item>A. FTP</item>
+        <item>A. First generation computer</item>
+        <item>A. VLSI</item>
+        <item>A. Ethernet</item>
+        <item>A. ORACLE</item>
+        <item>A. Memory Unit</item>
+        <item>A. Faults per inch</item>
+        <item>A. Optical disk</item>
+        <item>A. Interface program</item>
+        <item>A. A packet</item>
+        <item>A. Star wars</item>
+        <item>A. 4 bits</item>
+        <item>A. A packet</item>
+        <item>A. Mathematical mind</item>
+        <item>A. FTP</item>
+        <item>A. Mouse</item>
+
+
+    </string-array>
+
+    <string-array name="option2">
+        <item>B. Analytical Engine </item>
+        <item>B. Super conductor </item>
+        <item>B. Mother Board </item>
+        <item>B. A machine language</item>
+        <item>B. HTTP</item>
+        <item>B. Second generation computer</item>
+        <item>B. LSI</item>
+        <item>B. Inter LISP</item>
+        <item>B. SYBASE</item>
+        <item>B. Input Unit</item>
+        <item>B. Frames per inch</item>
+        <item>B. Magnetic disk</item>
+        <item>B. Interface protocol</item>
+        <item>B. A modem</item>
+        <item>B. Tron</item>
+        <item>B. 8 bits</item>
+        <item>B. A modem</item>
+        <item>B. Artistic mind</item>
+        <item>B. POP</item>
+        <item>B. Keyboard</item>
+
+    </string-array>
+
+    <string-array name="option3">
+        <item> C. Calculator </item>
+        <item>C. Super computer</item>
+        <item>C. Chip</item>
+        <item>C. An assembly language</item>
+        <item>C. HTML</item>
+        <item>C. Third generation computer</item>
+        <item>C. ROM</item>
+        <item>C. Small talk</item>
+        <item>C. C</item>
+        <item>C. Central Processing Unit</item>
+        <item>C. Film per inch</item>
+        <item>C. Magneto–Optical disk</item>
+        <item>C. Internet program</item>
+        <item>C. A block</item>
+        <item>C. Forbidden planet</item>
+        <item>C. 12 bits</item>
+        <item>C. A block</item>
+        <item>C. Logical mind</item>
+        <item>C. SAP</item>
+        <item>C. Printer</item>
+
+
+    </string-array>
+
+    <string-array name="option4">
+        <item>D. Processor </item>
+        <item>D. Megaframe </item>
+        <item>D. CPU</item>
+        <item>D. All of the above </item>
+        <item>D. URL</item>
+        <item>D. Fourth generation computer</item>
+        <item>D. RAM</item>
+        <item>D. Zeta LISP</item>
+        <item>D. INFORMIX</item>
+        <item>D. Control Unit</item>
+        <item>D. Figure per inch </item>
+        <item>D. None of these</item>
+        <item>D. Internet protocol</item>
+        <item>D. Both (A) and (B)</item>
+        <item>D. Dark star</item>
+        <item>D. 32 bits</item>
+        <item>D. Both (A) and (B)</item>
+        <item>D. Scientific knowledge</item>
+        <item>D. TCP</item>
+        <item>D. Touch screen </item>
+    </string-array>
+
+    <string-array name="answer">
+        <item>B. Analytical Engine </item>
+        <item>C. Super computer</item>
+        <item>A. Gate</item>
+        <item>A. A third generation high level language</item>
+        <item>C. HTML</item>
+        <item>A. First generation computer</item>
+        <item>C. ROM</item>
+        <item>A. Ethernet</item>
+        <item>C. C</item>
+        <item>C. Central Processing Unit</item>
+        <item>B. Frames per inch</item>
+        <item>B. Magnetic disk</item>
+        <item>D. Internet protocol</item>
+        <item>B. A modem</item>
+        <item>A. Star wars</item>
+        <item>B. 8 bits</item>
+        <item>B. A modem</item>
+        <item>C. Logical mind</item>
+        <item>B. POP</item>
+        <item>C. Printer</item>
+
+    </string-array>
+
+
+    ///////////////////////////////////////////Question Set
+    2///////////////////////////////////////////////////////////////////
+    <string-array name="question2">
+        <item>1. Web pages are written using ? </item>
+        <item>2. Find the odd man out. </item>
+        <item>3. The parity bit is added for the purpose of ? </item>
+        <item>4. Which of the following is NOT operating system ?  </item>
+        <item>5. The computer that is not considered as a portable computer is ? </item>
+        <item>6. ------ is need to build dynamic web documents? </item>
+        <item>7. ROM is composed of </item>
+        <item>8. Which command combines the contents of one file with another?</item>
+        <item>9. Find the odd man out. </item>
+        <item>10. ISDN stands for ? </item>
+        <item>11. Coded entries which are used to gain access to a computer system are called ? </item>
+        <item>12. What is the number of bit patterns provided by a 7 bit code? </item>
+        <item>13. A language for simulating models of business activity is? </item>
+        <item>14. Compilers and Interpreters are themselves ? </item>
+        <item>15. VSNL stands for ? </item>
+        <item>16. A terabyte comprises ? </item>
+        <item>17. Select the smallest memory size ? </item>
+        <item>18. Full form of TCP is ? </item>
+        <item>19. The errors that can be pointed out by the compiler are </item>
+        <item>20. Which of the following is an advantage to using fibre optics data transmission? </item>
+
+
+    </string-array>
+    <string-array name="opt1Set2">
+        <item>A. FTP</item>
+        <item>A. Coaxial cable</item>
+        <item>A. Coding</item>
+        <item>A. Dos</item>
+        <item>A. Laptop computer</item>
+        <item>A. CGI</item>
+        <item>A. Floppy disks</item>
+        <item>A. RESTORE</item>
+        <item>A. Google</item>
+        <item>A. International Standard Digital Network</item>
+        <item>A. Codewords</item>
+        <item>A. 64</item>
+        <item>A. SPSS</item>
+        <item>A. Compilers and Interpreters are themselves</item>
+        <item>A. Videsh Sanchar Nigam Ltd</item>
+        <item>A. 1024 gigabyte</item>
+        <item>A. Terabyte</item>
+        <item>A. Transmission control program</item>
+        <item>A. Syntax errors</item>
+        <item>A. Resistance to data theft</item>
+
+    </string-array>
+
+    <string-array name="opt2Set2">
+        <item>B. UML</item>
+        <item>B. Microwaves</item>
+        <item>B. Error detection</item>
+        <item>B. Unix</item>
+        <item>B. Mini computer</item>
+        <item>B. Java </item>
+        <item>B. Magnetic cores</item>
+        <item>B. RENAME</item>
+        <item>B. Lycos</item>
+        <item>B. International Subscriber Dialing Network</item>
+        <item>B. Entry codes</item>
+        <item>B. 256</item>
+        <item>B. GPSS</item>
+        <item>B. Codes</item>
+        <item>B. Very Soft Network Link</item>
+        <item>B. 1024 kilobyte</item>
+        <item>B. Gigabyte</item>
+        <item>B. Totalling control program</item>
+        <item>B. Internal errors</item>
+        <item>B. Fast data transmission rate</item>
+
+    </string-array>
+
+    <string-array name="opt3Set2">
+        <item>C. HTML</item>
+        <item>C. Optical fibre</item>
+        <item>C. Controlling</item>
+        <item>C. Window NT</item>
+        <item>C. Notebook computer</item>
+        <item>C. HTML</item>
+        <item>C. Microprocessors</item>
+        <item>C. APPEND</item>
+        <item>C. Altavista</item>
+        <item>C. Integrated Service Digital Network</item>
+        <item>C. Entry codes</item>
+        <item>C. 128</item>
+        <item>C. COBOL</item>
+        <item>C. Mnemonics</item>
+        <item>C. Vigam System Nigar Ltd</item>
+        <item>C. 1024 megabyte</item>
+        <item>C. Kilobyte</item>
+        <item>C. Transmission control protocol</item>
+        <item>C. Semantic errors</item>
+        <item>C. Few transmission errors</item>
+
+    </string-array>
+
+    <string-array name="opt4Set2">
+        <item>D. URL</item>
+        <item>D. Twisted pair wire</item>
+        <item>D. Indexing</item>
+        <item>D. Java </item>
+        <item>D. None of these</item>
+        <item>D. All of the above</item>
+        <item>D. Photoelectric cells</item>
+        <item>D. ADD </item>
+        <item>D. Java </item>
+        <item>D. Integrated System Digital Network</item>
+        <item>D. Security commands</item>
+        <item>D. 512</item>
+        <item>D. DL</item>
+        <item>D. Programs </item>
+        <item>D. Very Small Network Link </item>
+        <item>D. 1024 byte</item>
+        <item>D. Kilobyte</item>
+        <item>D. Total control Protocol</item>
+        <item>D. Logical errors</item>
+        <item>D. Low noise level </item>
+
+    </string-array>
+
+    <string-array name="answer2">
+        <item>C. HTML</item>
+        <item>B. Microwaves</item>
+        <item>B. Error detection</item>
+        <item>D. Java </item>
+        <item>B. Mini computer</item>
+        <item>D. All of the above</item>
+        <item>D. Photoelectric cells </item>
+        <item>C. APPEND</item>
+        <item>D. Java </item>
+        <item>C. Integrated Service Digital Network</item>
+        <item>D. Security commands</item>
+        <item>B. 256</item>
+        <item>B. GPSS</item>
+        <item>D. Programs </item>
+        <item>A. Videsh Sanchar Nigam Ltd</item>
+        <item>A. 1024 gigabyte</item>
+        <item>C. Kilobyte</item>
+        <item>C. Transmission control protocol</item>
+        <item>D. Logical errors</item>
+        <item>B. Fast data transmission rate</item>
+    </string-array>
+
+    ////////////////////////////////////////Internet and
+    Networking/////////////////////////////////////////
+    <string-array name="question3">
+
+        <item>1. The IETF standards documents are called- </item>
+        <item>2. The _______ is the physical path over which a message travels -</item>
+        <item>3. Three or more devices share a link in ________ connection - </item>
+        <item>4. Which one of the following computer network is built on the top of another network? </item>
+        <item>5. A list of protocols used by a system, one protocol per layer, is called </item>
+        <item>6. Communication channel is shared by all the machines on the network in </item>
+        <item>7. In computer network nodes are </item>
+        <item>8. Bluetooth is an example of </item>
+        <item>9. The function of DSLAM is - </item>
+        <item>10. StarBand provides </item>
+        <item>11. Buy now–pay now is commonly used for </item>
+        <item>12. The Internet is a system of</item>
+        <item>13. In which way a host on the internet finds another host?</item>
+        <item>14. An educational institution would generally have the following in its domain name.</item>
+        <item>15. A device needed to communicate with computers using telephone lines is a</item>
+        <item>16. Internet was developed in the</item>
+        <item>17. Who is the founder of Facebook which is currently the no.1 social networking website in India?</item>
+        <item>18. A website is a collection of</item>
+        <item>19. www stands for</item>
+        <item>20. The internet is a system of </item>
+
+    </string-array>
+
+    <string-array name="opt1Set3">
+        <item>A.RCF</item>
+        <item>A.Protocol</item>
+        <item>A.Multipoint</item>
+        <item>A.chief network</item>
+        <item>A.protocol architecture</item>
+        <item>A.unicast network</item>
+        <item>A.the computer that routes the data</item>
+        <item>A.local area network</item>
+        <item>A.Convert digital signals into analog signals</item>
+        <item>A.Cable access</item>
+        <item>A.Credit cards</item>
+        <item>A.Website</item>
+        <item>A.URL</item>
+        <item>A. .edu</item>
+        <item>A.VDU</item>
+        <item>A.1950s</item>
+        <item>A.Bill Gates</item>
+        <item>A.Programs</item>
+        <item>A.World wide webulugam</item>
+        <item>A.Web page</item>
+
+
+    </string-array>
+
+    <string-array name="opt2Set3">
+        <item>B.RFC</item>
+        <item>B.Path</item>
+        <item>B.Point to point</item>
+        <item>B.prime network</item>
+        <item>B.protocol suite</item>
+        <item>B.broadcast network</item>
+        <item>B.the computer that terminates the data</item>
+        <item>B.virtual private network</item>
+        <item>B.Amplify digital signals</item>
+        <item>B.FTTH internet access</item>
+        <item>B.Vaults cards </item>
+        <item>B.Web page</item>
+        <item>B.HTML</item>
+        <item>B. .org</item>
+        <item>B.CPU</item>
+        <item>B.1960s</item>
+        <item>B.Mark Zurkerberg </item>
+        <item>B.Algorithms</item>
+        <item>B.World Wide wonder</item>
+        <item>B.Website </item>
+    </string-array>
+
+    <string-array name="opt3Set3">
+        <item>C.ID</item>
+        <item>C.Medium</item>
+        <item>C.Unipoint</item>
+        <item>C.prior network</item>
+        <item>C.protocol stack</item>
+        <item>C.multicast network</item>
+        <item>C.the computer that originates the data</item>
+        <item>C.personal area network</item>
+        <item>C.Convert analog signals into digital signals</item>
+        <item>C.Telephone access</item>
+        <item>C.Visa cards</item>
+        <item>C.Software bundles</item>
+        <item>C.E-mail</item>
+        <item>C. .com</item>
+        <item>C.Modem</item>
+        <item>C.1970s</item>
+        <item>C.Martin Cooper</item>
+        <item>C.Charts</item>
+        <item>C.World wide web</item>
+        <item>C.Interconnected networks </item>
+    </string-array>
+
+    <string-array name="opt4Set3">
+        <item>D.None of the mentioned</item>
+        <item>D.Route</item>
+        <item>D.None of the mentioned</item>
+        <item>D.overlay network</item>
+        <item>D.none of the mentioned</item>
+        <item>D.none of the mentioned</item>
+        <item>D.all of the mentioned</item>
+        <item>D.none of the mentioned</item>
+        <item>D.None of these</item>
+        <item>D.Satellite access</item>
+        <item>D.Debit Cards</item>
+        <item>D.Interconnected networks</item>
+        <item>D.IP address</item>
+        <item>D. .inst</item>
+        <item>D.Disk</item>
+        <item>D.1980s</item>
+        <item>D.Orkut Buycukkokten</item>
+        <item>D.Web pages</item>
+        <item>D.World Wide wizard</item>
+        <item>D.Software bundles</item>
+    </string-array>
+
+    <string-array name="answer3">
+        <item>A.RFC</item>
+        <item>C.Medium</item>
+        <item>A.Multipoint</item>
+        <item>D.overlay network</item>
+        <item>C.protocol stack</item>
+        <item>B.broadcast network</item>
+        <item>D.all of the mentioned</item>
+        <item>C.personal area network</item>
+        <item>D.Satellite access</item>
+        <item>C.Visa cards</item>
+        <item>D.Interconnected networks</item>
+        <item>D.IP address</item>
+        <item>A. .edu</item>
+        <item>C.Modem</item>
+        <item>A.1950s</item>
+        <item>B.Mark Zurkerberg </item>
+        <item>D.Web pages</item>
+        <item>C.World wide web</item>
+        <item>C. Interconnected networks </item>
+        <item></item>
+    </string-array>
+
+
+    //////////////////////////////////////////////////////////////////////////////Software
+    //////////////////////////////////////////////////////////////////////////
+    <string-array name="question4">
+        <item>1.Which of the following is an example of application software?</item>
+        <item>2.What is a collection of programs written to provide services to other program?</item>
+        <item>3.What is the full form of DTP?</item>
+        <item>4.What transform one interface into another interface?</item>
+        <item>5.Software that is actively utilised by end users (like word or photoshop) is called</item>
+        <item>6.Microsoft Office Word 2007 is a/an _____</item>
+        <item>7.Mozilla Firefox is a ____</item>
+        <item>8.A specific instance of such software is called a</item>
+        <item>9.Which of the following is not an application software?</item>
+        <item>10.Microsoft Word is an example of</item>
+        <item>11._____ runs on computer hardware and serve as platform for other software to run on.</item>
+        <item>12.Internet Explorer is a(n) ____</item>
+        <item>13._____ is a set of computer programs used on a computer to help perform tasks?</item>
+        <item>14.Among them which is not a hardware?</item>
+        <item>15.Which is the part of a computer that one can touch and feel?</item>
+        <item>16._____ software is all the computer software that causes a computer to perform useful tasks beyond the running of the computer itself.</item>
+        <item>17.The primary purpose of software is to turn data into _____ </item>
+        <item>18. Which of the following Windows utility feature will erase unwanted files?</item>
+        <item>19._____ is a set of computer programs used on a computer to perform the task.</item>
+        <item>20.What kind of software would you most likely use to keep track of a billing account?</item>
+    </string-array>
+    <string-array name="opt1Set4">
+        <item>A. Linux</item>
+        <item>A. Real time software</item>
+        <item>A. Desktop Product</item>
+        <item>A. Hardware</item>
+        <item>A. Driver</item>
+        <item>A. application software</item>
+        <item>A. Spreadsheet</item>
+        <item>A. Virus</item>
+        <item>A. CorelDraw</item>
+        <item>A. an input device</item>
+        <item>A. VLC</item>
+        <item>A. System software</item>
+        <item>A. Software</item>
+        <item>A. Speaker</item>
+        <item>A. Program</item>
+        <item>A. Application</item>
+        <item>A. programs</item>
+        <item>A. Scanning</item>
+        <item>A. A processor</item>
+        <item>A. DBMS</item>
+    </string-array>
+    <string-array name="opt2Set4">
+        <item>B. Mac OSX</item>
+        <item>B. System software</item>
+        <item>B. Desktop publishng</item>
+        <item>B. Software</item>
+        <item>B. Operating system</item>
+        <item>B. system software</item>
+        <item>B. Web browser</item>
+        <item>B. Website</item>
+        <item>B. BIOS software</item>
+        <item>B. an operating system</item>
+        <item>B. JAVA</item>
+        <item>B. Application software</item>
+        <item>B. A processor</item>
+        <item>B. Tally</item>
+        <item>B. Software</item>
+        <item>B. CorelDraw</item>
+        <item>B. charts</item>
+        <item>B. Disk clean up</item>
+        <item>B. Software</item>
+        <item>B. Word processing</item>
+    </string-array>
+    <string-array name="opt3Set4">
+        <item>C. MS Word 2007</item>
+        <item>C. Embedded software</item>
+        <item>C. Dynamic Technology Product</item>
+        <item>C. Data</item>
+        <item>C. System software</item>
+        <item>C. utility software</item>
+        <item>C. Programming software</item>
+        <item>C. Application</item>
+        <item>C. Adobe Photoshop</item>
+        <item>C. a processing device</item>
+        <item>C. Operating system</item>
+        <item>C. Programming software</item>
+        <item>C. An instruction</item>
+        <item>C. Speaker</item>
+        <item>C. Hardware</item>
+        <item>C. DTP</item>
+        <item>C. objects</item>
+        <item>C. Backup or restore wizard</item>
+        <item>C. Memory</item>
+        <item>C. electronic publishing</item>
+    </string-array>
+
+    <string-array name="opt4Set4">
+        <item>D. Microsoft Windows</item>
+        <item>D. Business software</item>
+        <item>D. Desktop Phising</item>
+        <item>D. Program</item>
+        <item>D. actionware</item>
+        <item>D. Both a and b</item>
+        <item>D. Word processing software</item>
+        <item>D. CorelDraw</item>
+        <item>D. Adobe reader</item>
+        <item>D. application software</item>
+        <item>D. Processor</item>
+        <item>D. All of these</item>
+        <item>D. Memory</item>
+        <item>D. Mouse</item>
+        <item>D. Application software</item>
+        <item>D. Word processing</item>
+        <item>D. information</item>
+        <item>D. Disk defragmenter</item>
+        <item>D. An instruction</item>
+        <item>D. spreadsheet</item>
+    </string-array>
+
+    <string-array name="answer4">
+        <item>C. MS Word 2007</item>
+        <item>B. System software</item>
+        <item>B. Desktop publishng</item>
+        <item>B. Software</item>
+        <item>C. System software</item>
+        <item>C. utility software</item>
+        <item>B. Web browser</item>
+        <item>B. Website</item>
+        <item>A. CorelDraw</item>
+        <item>D. application software</item>
+        <item>C. Operating system</item>
+        <item>B. Application software</item>
+        <item>A. Software</item>
+        <item>B. Tally</item>
+        <item>C. Hardware</item>
+        <item>A. Application</item>
+        <item>D. information</item>
+        <item>B. Disk clean up</item>
+        <item>B. Software</item>
+        <item>D. spreadsheet</item>
+    </string-array>
+    //////////////////////////////////////////////////////////Hardware//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string-array name="question5">
+        <item>1.From what location are the 1st computer instructions available on boot up\?</item>
+        <item>2.What could cause a fixed disk error.</item>
+        <item>3.Missing slot covers on a computer can cause\?</item>
+        <item>4.When installing PCI NICS you can check the IRQ availability by looking at</item>
+        <item>5.With respect to a network interface card, the term 10/100 refers to</item>
+        <item>6.Which Motherboard form factor uses one 20 pin connector</item>
+        <item>7.A hard disk is divided into tracks which are further subdivided into:</item>
+        <item>8.A wrist grounding strap contains which of the following:</item>
+        <item>9.Which standard govern parallel communications?</item>
+        <item>10.In laser printer technology, what happens during the conditioning stage\?</item>
+        <item>11.What product is used to clean smudged keys on a keyboard\?</item>
+        <item>12.ESD would cause the most damage to which component\?</item>
+        <item>13.To view any currently running Terminate Stay Resident (TSR\'s) programs you could type:</item>
+        <item>14.Which type of system board is the MOST likely candidate for processor upgrading if you want maximum performance and future compatibility\?</item>
+        <item>15.Suppose that you have a the maintenance package identifies several possible field replaceable units (FRUs) that will resolve the problem. What should you do after turning the power off\?</item>
+        <item>16.Most PCs give a single beep on bootup to indicate they are ok hardware wise. You boot your PC and don\'t get a beep. What should you check first\?</item>
+        <item>17.Which peripheral port provides the FASTEST throughput to laser printers\?</item>
+        <item>18.The mouse pointer moves erratically, what is the possible cause\? The mouse</item>
+        <item>19.Voltage is measured:</item>
+        <item>20.Your customer tells you the print quality of their dot matrix printer is light then dark. Which of the following could cause the problem.</item>
+    </string-array>
+    <string-array name="opt1Set5">
+        <item>A. ROM BIOS</item>
+        <item>A. No-CD installed</item>
+        <item>A. over heat</item>
+        <item>A. dip switches</item>
+        <item>A. protocol speed</item>
+        <item>A. ATX</item>
+        <item>A. clusters</item>
+        <item>A. Surge protector</item>
+        <item>A. RS232</item>
+        <item>A. The corona wire places a uniform positive charge on the paper</item>
+        <item>A. TMC solvent</item>
+        <item>A. Power supply</item>
+        <item>A. Memory</item>
+        <item>A. ML</item>
+        <item>A. Replace the indicated parts, one at a time in the recommended sequence, until the problem is resolved; return unused FRUs to stock</item>
+        <item>A. system board</item>
+        <item>A. RS-232</item>
+        <item>A. ball is dirty</item>
+        <item>A. in parallel</item>
+        <item>A. Paper slippage</item>
+    </string-array>
+    <string-array name="opt2Set5">
+        <item>B. CPU</item>
+        <item>B. bad ram</item>
+        <item>B. power surges</item>
+        <item>B. CONFIG.SYS</item>
+        <item>B. a fiber speed</item>
+        <item>B. AT</item>
+        <item>B. sectors</item>
+        <item>B. Capacitor</item>
+        <item>B. RS-232a</item>
+        <item>B. A uniform negative charge is placed on the photosensitive drum</item>
+        <item>B. Silicone spray</item>
+        <item>B. Expansion board</item>
+        <item>B. MEM</item>
+        <item>B. PCI</item>
+        <item>B. Replace all of the indicated FRUs at once and return the machine to the customer if the problem is resolved</item>
+        <item>B. RAM</item>
+        <item>B. SCSI</item>
+        <item>B. is not connected</item>
+        <item>B. in series</item>
+        <item>B. Improper ribbon advancement</item>
+    </string-array>
+    <string-array name="opt3Set5">
+        <item>C. boot.ini</item>
+        <item>C. slow processor</item>
+        <item>C. EMI.</item>
+        <item>C. jumper settings</item>
+        <item>C. megabits per seconds</item>
+        <item>C. BABY AT</item>
+        <item>C. vectors</item>
+        <item>C. Voltmeter</item>
+        <item>C. CAT 5</item>
+        <item>C. A uniform negative charge is placed on the toner</item>
+        <item>C. Denatured alcohol</item>
+        <item>C. Monitor</item>
+        <item>C. SYS /M</item>
+        <item>C. ISA</item>
+        <item>C. Follow the same procedure as in ays replace the system board first if it is on the list of possible FRUs If multiple FRUs are indicated, then software is the most likely source of the problem</item>
+        <item>C. microprocessor</item>
+        <item>C. Parallel</item>
+        <item>C. driver is not installed properly</item>
+        <item>C. after breaking the circuit</item>
+        <item>C. Paper thickness</item>
+    </string-array>
+    <string-array name="opt4Set5">
+        <item>D. CONFIG.SYS</item>
+        <item>D. Incorrect CMOS settings</item>
+        <item>D. incomplete path for ESD</item>
+        <item>D. motherboard BIOS</item>
+        <item>D. minimum and maximum server speed</item>
+        <item>D. All of the above</item>
+        <item>D. heads</item>
+        <item>D. Resistor</item>
+        <item>D. IEEE 1284</item>
+        <item>D. All of the above</item>
+        <item>D. All-purpose cleaner</item>
+        <item>D. Keyboard</item>
+        <item>D. Memmaker</item>
+        <item>D. EISA</item>
+        <item>D. None of the above</item>
+        <item>D. speaker</item>
+        <item>D. Serial</item>
+        <item>D. has an incorrect IRQ setting</item>
+        <item>D. after checking resistance</item>
+        <item>D. Head position</item>
+    </string-array>
+    <string-array name="answer5">
+        <item>A. ROM BIOS</item>
+        <item>D. Incorrect CMOS settings</item>
+        <item>A. over heat</item>
+        <item>D. motherboard BIOS</item>
+        <item>C. megabits per seconds</item>
+        <item>A. ATX</item>
+        <item>B. sectors</item>
+        <item>D. Resistor</item>
+        <item>D. IEEE 1284</item>
+        <item>B. A uniform negative charge is placed on the photosensitive drum</item>
+        <item>D. All-purpose cleaner</item>
+        <item>B. Expansion board</item>
+        <item>B. MEM</item>
+        <item>B. PCI</item>
+        <item>A. Replace the indicated parts, one at a time in the recommended sequence, until the problem is resolved; return unused FRUs to stock</item>
+        <item>D. speaker</item>
+        <item>C. Parallel</item>
+        <item>A. ball is dirty</item>
+        <item>A. in parallel</item>
+        <item>B. Improper ribbon advancement</item>
+    </string-array>
+
+    //////////////////////////////////////////////////////ShortCut
+    Keys//////////////////////////////////////////////////
+    <string-array name="question6">
+        <item>1. F2 key use to change the ________ of file/folder.</item>
+        <item>2. Select the shortcut key of refresh.</item>
+        <item>3. Which key on the keyboard can be used to view slide show</item>
+        <item>4. To make the number pad act as directional arrows, you press the _______________ key.</item>
+        <item>5. What type of keys are ctrl and shift</item>
+        <item>6. Why is the Caps Lock key referred to as a toggle key</item>
+        <item>7. Which key is used to delete programs or files permanently</item>
+        <item>8. Which of the following is used to Move the cursor to the beginning of the previous word</item>
+        <item>9. The function of Key F4 is</item>
+        <item>10. The________ key and the ________ key can be used in combination with other keys to perform shortcuts and special tasks.</item>
+        <item>11. Which key is used to indent a paragraph in MS word </item>
+        <item>12. In Microsoft Word shortcut for delete is _______ </item>
+        <item>13. We can detect spelling and grammar error by:</item>
+        <item>14. Shortcut Key for insert hyperlink in document is:</item>
+        <item>15. Shortcut Key for Superscript is:</item>
+        <item>16. For open existing presentation you have to press:</item>
+        <item>17. For Maximize Power Point application window you have to press _____.</item>
+        <item>18. Purpose of Ctrl + B shortcut key in MS - Word is:</item>
+        <item>19. Which among the following short cut key is used to check spelling: </item>
+        <item>20. What is the purpose of Ctrl + I shortcut key in MS - Word:</item>
+    </string-array>
+
+    <string-array name="opt1Set6">
+        <item>A.colour</item>
+        <item>A.F2</item>
+        <item>A.F1</item>
+        <item>A.num lock</item>
+        <item>A.adjustment</item>
+        <item>A.Because its function goes back and forth every time it is pressed</item>
+        <item>A.F5</item>
+        <item>A.Ctrl+Left Arrow</item>
+        <item>A.Delete</item>
+        <item>A.Control, Alt</item>
+        <item>A.Shift</item>
+        <item>A.paste something</item>
+        <item>A.Press Shift + F7</item>
+        <item>A.Ctrl + H</item>
+        <item>A.Ctrl + =</item>
+        <item>A.Ctrl + N</item>
+        <item>A.Ctrl + Shift + F10</item>
+        <item>A.It converts selected text into the next larger size of the same font.</item>
+        <item>A.F2</item>
+        <item>A.It converts selected text into the next larger size of the same font</item>
+    </string-array>
+
+    <string-array name="opt2Set6">
+        <item>B.size</item>
+        <item>B.F4</item>
+        <item>B.F2</item>
+        <item>B.caps lock</item>
+        <item>B.function</item>
+        <item>B.Because it cannot be used for entering numbers</item>
+        <item>B.Ctrl + Del</item>
+        <item>B.Ctrl+Right Arrow</item>
+        <item>B.Repeat last function</item>
+        <item>B.Function, toggle</item>
+        <item>B.tab</item>
+        <item>B.undo something</item>
+        <item>B.Press F7</item>
+        <item>B.Ctrl + K</item>
+        <item>B.Ctrl + -</item>
+        <item>B.Ctrl + O</item>
+        <item>B.Shift + F10</item>
+        <item>B.It adds a double line break to the document</item>
+        <item>B.F1</item>
+        <item>B.It applies the Italic formatting to the selected text</item>
+    </string-array>
+
+    <string-array name="opt3Set6">
+        <item>C.name</item>
+        <item>C.F8</item>
+        <item>C.F10</item>
+        <item>C.arrow lock</item>
+        <item>C.modifier</item>
+        <item>C.Because it cannot be used to delete</item>
+        <item>C.Alt + D</item>
+        <item>C.Ctrl+Down Arrow</item>
+        <item>C.Refresh</item>
+        <item>C.Delete, Insert</item>
+        <item>C.Ctrl</item>
+        <item>C.redo something</item>
+        <item>C.Press Alt + F7</item>
+        <item>C.Ctrl + L</item>
+        <item>C.Ctrl + Shift + +</item>
+        <item>C.Ctrl + P</item>
+        <item>C.Ctrl + F10</item>
+        <item>C.It makes the selected text bold.</item>
+        <item>C.F7</item>
+        <item>C.It makes the selected text bold</item>
+    </string-array>
+
+    <string-array name="opt4Set6">
+        <item>D.style</item>
+        <item>D.F5</item>
+        <item>D.F5</item>
+        <item>D.shift</item>
+        <item>D.alphanumeric</item>
+        <item>D.Because it cannot be used to insert</item>
+        <item>D.Shift + Del</item>
+        <item>D.Ctrl+Up Arrow</item>
+        <item>D.Copy</item>
+        <item>D.Caps Lock, Num Lock</item>
+        <item>D.Esc</item>
+        <item>D.end something</item>
+        <item>D.Press Alt + F10</item>
+        <item>D.Ctrl + M</item>
+        <item>D.Ctrl + Shift - =</item>
+        <item>D.Ctrl + K</item>
+        <item>D.Ctrl + Shift + F5</item>
+        <item>D.It adds a line break to the document</item>
+        <item>D.F5</item>
+        <item>D.It adds a line break to the document</item>
+    </string-array>
+
+    <string-array name="answer6">
+        <item>C.name</item>
+        <item>D.F5</item>
+        <item>D.F5</item>
+        <item>A.num lock</item>
+        <item>C.modifier</item>
+        <item>A.Because its function goes back and forth every time it is pressed</item>
+        <item>D.Shift + Del</item>
+        <item>A.Ctrl+Left Arrow</item>
+        <item>B.Repeat last function</item>
+        <item>A.Control, Alt</item>
+        <item>B.tab</item>
+        <item>B.undo something</item>
+        <item>B.Press Alt + F10</item>
+        <item>B.Ctrl + K</item>
+        <item>C.Ctrl + Shift + +</item>
+        <item>B.Ctrl + O</item>
+        <item>C.Ctrl + F10</item>
+        <item>C.It makes the selected text bold.</item>
+        <item>C.F7</item>
+        <item>B.It applies the Italic formatting to the selected text</item>
+    </string-array>
+
+
+</resources>

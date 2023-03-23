@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="5dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="8dp"
+    tools:context=".CustomDialog">
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/instruct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:text="Do you want to submit this question?"/>
+
+        <RelativeLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instruct"
+        android:layout_alignParentEnd="true"
+            android:gravity="end"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dialog_Color"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:text="Yes"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/yes">
+                <TextView
+                    android:id="@+id/no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dialog_Color"
+                    android:textStyle="bold"
+                    android:padding="12dp"
+                    android:text="NO"/>
+            </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

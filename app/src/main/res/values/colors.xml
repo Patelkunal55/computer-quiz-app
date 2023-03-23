@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f71408</color>
+    <color name="colorPrimaryDark">#00B8D4</color>
+    <color name="colorAccent">#04F570</color>
+    <color name="your_color">#ff0d00</color>
+    <color name="color_black">#ff0d0d0d</color>
+    <color name="White_color">#ffffff</color>
+    <color name="statusbar">#00A6BB</color>
+    <color name="dialog_Color">#7438DF</color>
+    <color name="Purple">#EA80FC</color>
+    <color name="toolbar">
+
+
+
+    </color>
+
+
+</resources>

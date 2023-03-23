@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    signingConfigs {
+        config {
+            storeFile file('D:\\KeyStore Key\\DemoApp keystore\\keystore.jks')
+            storePassword 'kunal31760'
+            keyAlias 'upload'
+            keyPassword 'jarvis31760'
+        }
+    }
+
+
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "mrk2.kunalpatel.com.demoapps"
+        minSdkVersion 21
+        targetSdk 33
+        versionCode 8
+        versionName "2.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.core:core-ktx:1.11.0-alpha01'
+
+
+    //implementation 'com.google.android.gms:play-services-ads:21.3.0'
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.4.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation 'gr.pantrif:easy-android-splash-screen:0.0.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.timqi.sectorprogressview:library:2.0.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.littlemango:stacklayoutmanager:1.0.5'
+    //implementation 'com.google.firebase:firebase-ads:15.0.1'
+    testImplementation 'junit:junit:4.13.2'
+}
